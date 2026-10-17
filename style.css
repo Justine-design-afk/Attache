@@ -1,0 +1,236 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+.button-row {
+  display: flex;
+  flex-direction: row;
+  /* default: left to right */
+  gap: 12px;
+  /* space between buttons */
+  justify-content: right;
+  align-items: center;
+  /* vertical alignment */
+  flex-wrap: wrap;
+  /* wrap to next line on small screens */
+}
+
+
+
+/* Base button style */
+.btn {
+  display: inline-block;
+  padding: 10px 22px;
+  background-color: #2563eb;
+  color: white;
+  text-decoration: none;
+  border: 2px solid #2563eb;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #1d4ed8;
+  border-color: #1d4ed8;
+}
+
+/* Variations */
+.btn-outline {
+  background-color: transparent;
+  color: #2563eb;
+}
+
+.btn-outline:hover {
+  background-color: #2563eb;
+  color: white;
+}
+
+.btn-dark {
+  background-color: #111827;
+  border-color: #111827;
+}
+
+.btn-dark:hover {
+  background-color: #374151;
+  border-color: #374151;
+}
+
+.instructions {
+  background-color: rgb(243, 243, 248);
+  color: rgb(11, 12, 12);
+  font-size: 20px;
+  font-family: 'Arial', sans-serif;
+
+}
+
+.graduation-photo {
+  max-width: 100%;
+  height: auto;
+}
+
+.content-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* 2 equal columns */
+  gap: 20px;
+  background-color: #5c8ae6;
+  padding: 20px;
+}
+
+.welcome-note {
+  background-color: rgb(217, 228, 228);
+  color: rgb(8, 8, 8);
+  font-size: 20px;
+  align-items: right;
+  padding: 20px;
+  border-radius: 20px;
+  margin:12px 9px;
+
+}
+.usage-container{
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+.inst-container{
+  flex: 1;
+  padding: 10px;
+  border: 1px solid blue;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Section Container */
+.how-it-works {
+  padding: 4rem 5%;
+  background-color: #f8fafc;
+  text-align: center;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* Full viewport height */
+  background-color: #d774e0;
+  /* Light gray background */
+  border-radius: 10px;
+  max-width: 400px;
+  /* Optional: Limit the width of the container */
+  width: 100%;
+  /* Ensure it takes full width on smaller screens */
+  margin: 0 auto;
+  /* Center the container horizontally */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #d9b3f5;
+}
+
+/* Centers the card on the page */
+.login-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* The card */
+.login-form {
+  width: 100%;
+  max-width: 380px;
+  background: #ffffff;
+  padding: 32px 28px;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(90, 30, 140, 0.25);
+}
+
+/* Heading now sits at the top, centered */
+.login-form h2 {
+  margin: 0 0 24px;
+  text-align: center;
+  color: #5b1f8f;
+}
+
+/* Label above input, stacked */
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.field label {
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #444;
+}
+
+.field input {
+  padding: 11px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.field input:focus {
+  outline: none;
+  border-color: #67ebca;
+  box-shadow: 0 0 0 3px rgba(162, 75, 214, 0.2);
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 8px;
+  background: #aa73ca;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+
+button:hover {
+  background: #8a35bd;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+.requirements {
+  background-color: rgb(235, 227, 236);
+  color: rgb(29, 27, 27);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+  margin:10px;
+}
+
+.orgstns{
+  background-color: rgb(218, 197, 197);
+  color: beige;
+}
+
+
+

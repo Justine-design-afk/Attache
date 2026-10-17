@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>organisations sector</title>
+    <style>
+        body {
+            background-color: #d4d2da;
+        }
+
+        .ogf-container {
+            display: flex;
+            flex-direction: row;
+            margin: auto;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(89, 169, 216);
+        }
+
+        .odf-data {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid black;
+            margin: 10px;
+        }
+
+        .org-form {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .reg-form {
+            width: 100%;
+            max-width: 380px;
+            background: #ffffff;
+            padding: 32px 28px;
+            border-radius: 14px;
+            box-shadow: 0 10px 30px rgba(90, 30, 140, 0.25);
+        }
+
+        .reg-form h2 {
+            margin: 0 0 24px;
+            text-align: center;
+            color: #5b1f8f;
+        }
+
+        .orgdata-form {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 16px;
+        }
+
+        .orgdata-form label {
+            margin-bottom: 6px;
+            font-size: 14px;
+            font-weight: 600;
+            color: #444;
+        }
+
+        .orgdata-form input {
+            padding: 11px 12px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 15px;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+
+        .orgdata-form input:focus {
+            outline: none;
+            border-color: #67ebca;
+            box-shadow: 0 0 0 3px rgba(162, 75, 214, 0.2);
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            margin-top: 8px;
+            border: none;
+            border-radius: 8px;
+            background: #aa73ca;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s, transform 0.1s;
+        }
+
+        button:hover {
+            background: #8a35bd;
+        }
+
+        button:active {
+            transform: scale(0.98);
+        }
+        .assistance{
+            display: flex;
+            justify-content: center;
+        }
+        .assist{
+            display: flex;
+        }
+        .assist a{
+            background-color: #444;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Welcome to our platform</h2>
+    <p>Register your organisation with us by following the rules provided below</p>
+    <div class="ogf-container">
+        <div class="odf-data">
+            <h3>1.Fill your Organisation's official name</h3>
+        </div>
+        <div class="odf-data">
+            <h3>2.Enter your Organisation's Location</h3>
+        </div>
+        <div class="odf-data">
+            <h3>3.Enter what positions your willing to receive students</h3>
+        </div>
+        <div class="odf-data">
+            <h3>4.Enter the number of slots your providing</h3>
+        </div>
+        <div class="odf-data">
+            <h3>5.Enter the organisation's official email</h3>
+        </div>
+    </div>
+    <br>
+    <div class="org-form">
+        <form class="reg-form">
+            <h2>Register here</h2>
+            <div class="orgdata-form">
+                <label for="name">organisation name</label>
+                <input type="text" id="name" placeholder="enter the organisation name">
+            </div>
+            <div class="orgdata-form">
+                <label for="location">organisation name</label>
+                <input type="text" id="location" placeholder="enter the organisation's location">
+            </div>
+            <div class="orgdata-form">
+                <label for="position">course</label>
+                <input type="text" id="course" placeholder="course positions available">
+            </div>
+            <div class="orgdata-form">
+                <label for="slots">available slots</label>
+                <input type="number" id="slots" placeholder="enter the number of slots available">
+            </div>
+            <div class="orgdata-form">
+                <label for="email">email</label>
+                <input type="email" id="email" placeholder="enter the organisation's email">
+            </div>
+            <button type="submit">submitt</button>
+        </form>
+    </div>
+
+    <br><br>
+    <div class="assistance">
+        <h2>For any enquiries reach to us through our social media handles</h2>
+        <div class="assist">
+            <ul>
+                <li><a href="https://www.instagram.com/ju3t0/" target="blank">instagram</a></li>
+                <li><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">email</a></li>
+                <li><a href="https://www.tiktok.com/@ju3t_1n3?lang=en" target="_blank">tiktok</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
